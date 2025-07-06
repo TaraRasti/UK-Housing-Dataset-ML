@@ -28,3 +28,14 @@ This notebook presents an end-to-end machine learning pipeline using real UK hou
 - Visualize predicted vs actual prices
 - Handle prediction `NaN`s and outlier issues
 
+## 📈 How I Improved Model Accuracy from 15% to 90%
+
+Initially, the model achieved a low **R² score of ~0.15**, indicating it explained only 15% of the variance in house prices. Through a series of targeted improvements, I was able to significantly increase the accuracy — reaching an R² of over **0.90**. Here's how:
+
+---
+
+### ✅ 1. Fixed Input Data Issues
+- **Problem**: The input features contained thousands of `NaN` values, which caused unstable training and `NaN` predictions.
+- **Solution**: I filled all missing values after one-hot encoding:
+  ```python
+  X = X.fillna(0)
