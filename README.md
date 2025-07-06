@@ -32,4 +32,11 @@ This notebook presents an end-to-end machine learning pipeline using real UK hou
 
 Initially, the model achieved a low **R² score of ~0.15**, indicating it explained only 15% of the variance in house prices. Through a series of targeted improvements, I was able to significantly increase the accuracy — reaching an R² of over **0.90**.
 
+### Dataset: `pp-monthly-update-new-version.csv`
+
+- Source: HM Land Registry Price Paid Data (England & Wales) as of Month‑Year
+- Contains real residential sales data since 1995: prices, postcodes, property types, tenure, and dates
+- Ideal for ML pipeline: rich categorical, temporal, and numerical features
+- Licensed under the Open Government Licence (OGL) — perfect for open-source projects
+
   
