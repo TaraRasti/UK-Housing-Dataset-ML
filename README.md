@@ -1,6 +1,6 @@
 # 🏠 UK House Price Prediction with Machine Learning
 
-This project explores UK housing market data to build a robust machine learning pipeline that predicts house prices. Using data from the HM Land Registry, the notebook walks through exploratory data analysis (EDA), feature engineering, statistical testing, and both classical ML models and deep learning to reach up to **90% prediction accuracy**.
+This project explores UK housing market data to build a robust machine learning pipeline that predicts house prices. Using data from the HM Land Registry, the notebook walks through exploratory data analysis (EDA), feature engineering, statistical testing, and both classical ML models and deep learning to reach up to **94% prediction accuracy**.
 
 ---
 
@@ -109,13 +109,13 @@ Compiled with Adam optimizer and MSE loss. Trained with validation split and lea
 
 ---
 
-## 📈 Neural Network Results: 90% Accuracy!
+## 📈 Neural Network Results: 94% Accuracy!
 
 After reversing the log-transformation of predictions:
 
 - **MAE:** ~£33,000  
 - **RMSE:** ~£47,000  
-- **R² Score:** **0.90**
+- **R² Score:** **0.9398**
 
 This model captured the nonlinear patterns in the data far better than classical models. Actual vs. predicted scatter plot confirmed high alignment.
 
